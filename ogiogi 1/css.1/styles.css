@@ -1,0 +1,470 @@
+@font-face{
+    font-family:open-sans;
+    src: url(OpenSans-Light.ttf);
+}
+@font-face{ 
+    font-family:montserrat;
+    src: url(Montserrat-Regular.ttf);
+}
+.logo{
+    padding-top: 22.5px;
+    display: block;
+}
+body{
+    font-family:open-sans, sans-serif;
+    font-size: 15px;
+    padding-top: 34px;
+}
+.nav-link{
+    color: #5d5f65;
+    font-size: 16px;
+    padding: 0.5rem 0.8rem;
+}
+.row{
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}      
+.todo-al-centro{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.todo-al-centro h1{
+    color: #141720;
+    font-weight: bold;
+    font-size: 44px;
+    font-family:montserrat, sans-serif;
+    margin-bottom: 17px;
+}
+.todo-al-centro h2{
+    font-size: 25px;
+    line-height: 2.4;
+}
+.dos-secciones {
+    background:#130D3C;
+    padding-top: 145px;
+    padding-bottom: 241px;
+    color: cornsilk;
+    position: relative;
+}
+.imagen-dos-secciones {
+    width: 50%;
+    height: 635px;
+    background: url(../images/imagen-dos-secciones.png);
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.tres-secciones{
+    width: 991px;
+    height: 314px;
+    padding-left: 590px;
+    padding-top: 142px;
+    position: relative;
+    padding-bottom: 600px;
+}
+.content-1{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+.Timeline{
+    margin-right: -590px;
+    padding-left: 210px;
+    font-family: open-sans, sans-serif;
+}
+.Timeline h3{
+    font-family: montserrat, sans-serif;
+}
+/*Linea del tiempo*/
+.timeline{
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    line-height: 26px;
+    font-weight: initial;
+}
+.line{
+    position: absolute;
+    width: 4px;
+    height: 500px;
+    left: 353.5px;
+    top: 0px;
+    background: #D4D4D4;
+}
+.dosmiltres{
+    position: absolute;
+    width: 236px;
+    height: 19px;
+    left: -63px;
+    top: 151px;
+}
+.dosmiltres h1{
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #c71222;
+    word-spacing: 250px;
+}
+.dosmiltres h2{
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 90px;
+    top: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #c71222
+}
+.dosmilseis{
+    position: absolute;
+    width: 261px;
+    height: 19px;
+    left: -63px;
+    top: 231px;
+}
+.dosmilseis h1{
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D4D4D4;
+}
+.dosmilseis h2{
+    position: absolute;
+    width: 171px;
+    height: 26px;
+    left: 90px;
+    top: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141720;
+}
+.dosmildiez{
+    position: absolute;
+    width: 258px;
+    height: 19px;
+    left: -63px;
+    top: 332px;    
+}
+.dosmildiez h1{
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D4D4D4;
+}
+.dosmildiez h2{
+    position: absolute;
+    width: 168px;
+    height: 52px;
+    left: 90px;
+    top: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141720;
+}
+.dosmildieciseis{
+    position: absolute;
+    width: 236px;
+    height: 19px;
+    left: -63px;
+    top: 492px;
+}
+.dosmildieciseis h1{
+    position: absolute;
+    width: 46px;
+    height: 26px;
+    left: 0px;
+    top: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #D4D4D4;
+}
+.dosmildieciseis h2{
+    position: absolute;
+    width: 146px;
+    height: 26px;
+    left: 90px;
+    top: 0px;
+    font-size: 16px;
+    line-height: 26px;
+    color: #141720;
+}
+/*circulos*/
+.bola-uno{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 57px;
+    top: 1px;
+    background: #FFFFFF;
+    border: 4px solid #C71222;
+    border-radius: 50%;
+}
+.bola-dos{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 57px;
+    top: 1px;
+    background: #FFFFFF;
+    border: 4px solid #D4D4D4;
+    border-radius: 50%;
+}
+.bola-tres{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 57px;
+    top: 1px;
+    background: #FFFFFF;
+    border: 4px solid #D4D4D4;
+    border-radius: 50%;
+}
+.bola-cuatro{
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    left: 57px;
+    top: 1px; 
+    background: #FFFFFF;
+    border: 4px solid #D4D4D4;
+    border-radius: 50%;
+}
+.cuatro-secciones{
+    width: 1349px;
+    padding-bottom: 300px;
+    background:  #EFEFEF;
+}
+.col-sm-12 {
+    font-family: montserrat, sans-serif;
+    font-size: 28px;
+    padding-top: 133px;
+    color: #2B2B2B;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+}
+.col-sm-4 {
+    width: 355px;
+    height: 178px;
+    padding: 20px 20px;
+    margin-top: 70px;
+    letter-spacing: 0.5px;
+    color: #5D5F65;
+}
+.col-sm-4 img{
+    padding-bottom: 20px;
+}
+.col-sm-4 h4{
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+}
+.col-sm-4 p{
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 26px;
+    color: #141720;;
+}
+.imagen-wallet{
+    background: url(../images/wallet-4.png);
+    position: absolute;
+    width: 29px;
+    height: 620px;
+    left: 10px;
+    top: -560px;
+}
+.imagen-wallet-dos{
+    background: url(../images/wallet-6.png);
+    position: absolute;
+    width: 40px;
+    height: 618px;
+    left: 15px;
+    top: -560px;
+}
+.cuatro{
+    padding-top: 58px;
+}
+.cuatro-uno{
+    padding-top: 58px;
+}
+.cinco-secciones{
+    background:#130D3C;
+    width: 1348px;
+    bottom: 650px;
+    height: 656.5px;
+    left: 720px;
+}
+.imagen-cinco-secciones{
+    width: 50%;
+    height: 700px;
+    background: url(../images/imagen-jobs.jpg);
+    background-size: cover;
+    position: absolute;
+}
+.cinco-secciones h3{
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-right: -640px;
+    padding-left: 680px;
+    margin-top: 144px;
+}
+.cinco-secciones p{
+    color: #FFFFFF;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    margin-right: -640px;
+    padding-left: 680px;
+}
+.seis-secciones{
+    width: 1348px;
+    height: 800px;
+    left: 50%;
+    background: #130D3C;
+    bottom: 0px;
+}
+.imagen-seis-secciones{
+    width: 50%;
+    height: 756px;
+    background: url(../images/imagen-mapa.jpg);
+    background-size: cover;
+    top: 50;
+    right: 0;
+    position: absolute;
+}
+.reglon-uno{
+    position: absolute;
+    width: 260px;
+    height: 26px;
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    color: #FFFFFF;
+    margin-top: 143.5px;
+}
+.reglon-dos{
+    position: absolute;
+    width: 500px;
+    height: 52px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 199px; 
+}
+.reglon-tres{
+    position: absolute;
+    width: 500px;
+    height: 52px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 266px;
+}
+.reglon-cuatro{
+    position: absolute;
+    width: 500px;
+    height: 52px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 332.5px;
+}
+.reglon-cinco{
+    position: absolute;
+    width: 190px;
+    height: 60px;
+    left: 250px;
+    top: 15px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    margin-top: 491.5px;
+    background: #c71222;
+    border-radius: 100px;
+    padding-top: 18px;
+    padding-bottom: 10px;
+    padding-left: 55px;
+}
+.linea-uno{
+    position: absolute;
+    width: 450px;
+    height: 2px;
+    left: 1px;
+    top: 56.5px;
+    background: #FFFFFF;
+    margin-top: 215px;
+}
+.linea-dos{
+    position: absolute;
+    width: 450px;
+    height: 2px;
+    left: 1px;
+    top:56.5px;
+    background: #FFFFFF;
+    margin-top: 285px;
+}
+.linea-tres{
+    position: absolute;
+    width: 450px;
+    height: 2px;
+    left: 1px;
+    top:548px;
+    background: #FFFFFF;
+    margin-top: 37px;
+}
+.triangle-down-left {
+    width: 0;
+    height: 0;
+    border-right: 21px solid transparent;
+    border-top: 10px solid transparent;
+    border-left: 21px solid #c71222;
+    border-bottom: 10px solid #c71222;
+    margin-left: 844.5px;
+    margin-top: -424px;
+}
+.ubicacion h4{
+    width: 280px;
+    height: 63px;
+    left: 337px;
+    top: 321px;
+    font-family: open-sans, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color:#FFFFFF;
+    background: #c71222;
+    border:20px solid #c71222;
+    margin-left: 844.5px;
+}
